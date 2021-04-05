@@ -12,7 +12,7 @@ import {
     BtnWrap, 
     Column2, 
     ImgWrap, 
-    Img,
+    Img
         } from './InfoElements.js'
 const InfoSection = ({
     lightBg, 

@@ -34,7 +34,7 @@ const HeroSection = () => {
                 <HeroBtnWrapper>
                     <Button 
                     to='signup' 
-                    opnMouseEnter={onHover } 
+                    opnMouseEnter={onHover} 
                     onMouseLeave={onHover}
                     primary='true'
                     dark='true'
