@@ -5,9 +5,7 @@ const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onclick={toggle}>
             <Icon onClick={toggle}>
-                <CloseIcon>
-
-                </CloseIcon>
+                <CloseIcon/>
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
@@ -17,8 +15,8 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='former chairman'>
                         Former Chairman
                     </SidebarLink>
-                    <SidebarLink to='gallery'>
-                        Gallery
+                    <SidebarLink to='services'>
+                        Services
                     </SidebarLink>
                     <SidebarLink to='signup'>
                         Sign Up
